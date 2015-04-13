@@ -91,6 +91,7 @@ static void dyad_free(void *ptr) {
 /* Vector                                                                    */
 /*===========================================================================*/
 
+// 扩展
 static void dyad_vectorExpand(
   char **data, int *length, int *capacity, int memsz
 ) {
@@ -273,7 +274,7 @@ struct dyad_Stream {
   char *address;
   int port;
   int bytesSent, bytesReceived;
-  double lastActivity, timeout;
+  double lastActivity, timeout;  // 用于timeout事件
   dyad_Vector(dyad_Listener) listeners;
   dyad_Vector(char) lineBuffer;
   dyad_Vector(char) writeBuffer;
@@ -676,8 +677,13 @@ void dyad_update(void) {
   dyad_Stream *stream;
   struct timeval tv;
 
+  // 如果stream的state ＝＝ DYAD_STATE_CLOSED 则销毁
   dyad_destroyClosedStreams();
+  
+  // 对每一个stream出发tick event
   dyad_updateTickTimer();
+  
+  // 检查stream的lastActivity与当前的时间，超出其timeout值，发送timeout事件
   dyad_updateStreamTimeouts();
 
   /* Create fd sets for select() */
@@ -685,12 +691,12 @@ void dyad_update(void) {
 
   stream = dyad_streams;
   while (stream) {
-    switch (stream->state) {
+    switch (stream->state) 
+    {
       case DYAD_STATE_CONNECTED:
         dyad_selectAdd(&dyad_selectSet, DYAD_SET_READ, stream->sockfd);
-        if (!(stream->flags & DYAD_FLAG_READY) ||
-            stream->writeBuffer.length != 0
-        ) {
+        if (!(stream->flags & DYAD_FLAG_READY) || stream->writeBuffer.length != 0) 
+        {
           dyad_selectAdd(&dyad_selectSet, DYAD_SET_WRITE, stream->sockfd);
         }
         break;
@@ -936,9 +942,8 @@ void dyad_end(dyad_Stream *stream) {
 }
 
 
-int dyad_listenEx(
-  dyad_Stream *stream, const char *host, int port, int backlog
-) {
+int dyad_listenEx( dyad_Stream *stream, const char *host, int port, int backlog) 
+{
   struct addrinfo hints, *ai = NULL;
   int err, optval;
   dyad_Event e;
