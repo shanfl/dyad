@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>84191B56-C294-43CF-8607-D1BC984FD6C3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>dyad</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DD2B4F0B1EDE5C54040BF154FF948E9C94419798</key>
+		<string>https://github.com/shanfl/dyad.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>build/dyad.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DD2B4F0B1EDE5C54040BF154FF948E9C94419798</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shanfl/dyad.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DD2B4F0B1EDE5C54040BF154FF948E9C94419798</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DD2B4F0B1EDE5C54040BF154FF948E9C94419798</string>
+			<key>IDESourceControlWCCName</key>
+			<string>dyad</string>
+		</dict>
+	</array>
+</dict>
+</plist>

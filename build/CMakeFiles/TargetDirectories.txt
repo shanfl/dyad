@@ -1,0 +1,7 @@
+/Users/tuyou/shanfl/dyad/build/CMakeFiles/HTTPSERV.dir
+/Users/tuyou/shanfl/dyad/build/CMakeFiles/DAYTIME.dir
+/Users/tuyou/shanfl/dyad/build/CMakeFiles/echoserv.dir
+/Users/tuyou/shanfl/dyad/build/CMakeFiles/ALL_BUILD.dir
+/Users/tuyou/shanfl/dyad/build/CMakeFiles/httpget.dir
+/Users/tuyou/shanfl/dyad/build/CMakeFiles/ZERO_CHECK.dir
+/Users/tuyou/shanfl/dyad/build/CMakeFiles/IRCBOT.dir

@@ -1,0 +1,1506 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              3B9B76B7DEA24B88B930F565 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = E9259E274BDF44E9A6B4DC45 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            71BABED519FD40AD81C46804 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            681BAAB9F80140558F7A176D /* PBXTargetDependency */,
+                            8FAAC6ECE7594C619692B8A7 /* PBXTargetDependency */,
+                            92CAF0658A23464DBC589347 /* PBXTargetDependency */,
+                            AE6E634428FF4E33AA0DCE3C /* PBXTargetDependency */,
+                            182DE31BE3F1401D836CA5E1 /* PBXTargetDependency */,
+                            16652405F1C34A1F915455A6 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              7A946C6F31BD46958164D25B /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = DFDCF14A2E974F68A9C99BEE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            18024DDE8FEB400EAD68F130 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+8ECC1A84F3E64D37B6191087 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A0BA375AD0034C0A8AC9ACDD /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+8176470620FA46079AA58EEA /* /Users/tuyou/shanfl/dyad/example/daytime.c */ = {isa = PBXBuildFile; fileRef = 94E1C98A5AC8462295306B41 /* /Users/tuyou/shanfl/dyad/example/daytime.c */; settings = { COMPILER_FLAGS = ""; }; };
+411EBD5D6BC54144B48CB47D /* /Users/tuyou/shanfl/dyad/src/dyad.c */ = {isa = PBXBuildFile; fileRef = 4DA594DB301941FD8A617F7B /* /Users/tuyou/shanfl/dyad/src/dyad.c */; settings = { COMPILER_FLAGS = ""; }; };
+3DBE917C677A49FF823D6C2B /* /Users/tuyou/shanfl/dyad/src/dyad.h */ = {isa = PBXBuildFile; fileRef = 23A4DDE27FB44276B93A7748 /* /Users/tuyou/shanfl/dyad/src/dyad.h */; settings = { COMPILER_FLAGS = ""; }; };
+3073EED1377B47D7A194C470 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6CF91E594D5C42D69C9F8364 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+64BBFF248F4E4D23B4334C4E /* /Users/tuyou/shanfl/dyad/example/httpserv.c */ = {isa = PBXBuildFile; fileRef = BB1EBA6DD460466A908A9E0C /* /Users/tuyou/shanfl/dyad/example/httpserv.c */; settings = { COMPILER_FLAGS = ""; }; };
+0F85404CA3CB42C6B13EF077 /* /Users/tuyou/shanfl/dyad/src/dyad.c */ = {isa = PBXBuildFile; fileRef = C7168175DF1A498F9846B63D /* /Users/tuyou/shanfl/dyad/src/dyad.c */; settings = { COMPILER_FLAGS = ""; }; };
+FBDF6B62A93D4C20ADC8492E /* /Users/tuyou/shanfl/dyad/src/dyad.h */ = {isa = PBXBuildFile; fileRef = 6A39C73970104871A3C70180 /* /Users/tuyou/shanfl/dyad/src/dyad.h */; settings = { COMPILER_FLAGS = ""; }; };
+87E28A7B1CA9451FAB121223 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7C304CF6F7F340498CD7EC68 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+D71899B401764E4CB071EB91 /* /Users/tuyou/shanfl/dyad/example/ircbot.c */ = {isa = PBXBuildFile; fileRef = 8A4E02D6F93E4B989B15FE54 /* /Users/tuyou/shanfl/dyad/example/ircbot.c */; settings = { COMPILER_FLAGS = ""; }; };
+9C02E6D68D114196AB980104 /* /Users/tuyou/shanfl/dyad/src/dyad.c */ = {isa = PBXBuildFile; fileRef = 17496DDA59184490B3537AC4 /* /Users/tuyou/shanfl/dyad/src/dyad.c */; settings = { COMPILER_FLAGS = ""; }; };
+61DDFF14D8E141388F0A1291 /* /Users/tuyou/shanfl/dyad/src/dyad.h */ = {isa = PBXBuildFile; fileRef = 658B59AB8DCE4065851AD2FB /* /Users/tuyou/shanfl/dyad/src/dyad.h */; settings = { COMPILER_FLAGS = ""; }; };
+5AAF81FB5A334F67ACAF9FD3 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BE938303616F439EA8D9DDB1 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+798C05F3886443E6B357578E /* /Users/tuyou/shanfl/dyad/example/echoserv.c */ = {isa = PBXBuildFile; fileRef = 90B511DD46F048ACAD4556E6 /* /Users/tuyou/shanfl/dyad/example/echoserv.c */; settings = { COMPILER_FLAGS = ""; }; };
+385EE3205EA24F8292F4EC52 /* /Users/tuyou/shanfl/dyad/src/dyad.c */ = {isa = PBXBuildFile; fileRef = 5603C80FB3A547FC84E4FA61 /* /Users/tuyou/shanfl/dyad/src/dyad.c */; settings = { COMPILER_FLAGS = ""; }; };
+7CDD9680BFE2417AA51209B7 /* /Users/tuyou/shanfl/dyad/src/dyad.h */ = {isa = PBXBuildFile; fileRef = 726A643598DB4ED7B62F5425 /* /Users/tuyou/shanfl/dyad/src/dyad.h */; settings = { COMPILER_FLAGS = ""; }; };
+93138838168340B6BB49EE74 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D95BF2DD1CA44F4AA43FD661 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+24F6E2EFE22A4D77BD811EC6 /* /Users/tuyou/shanfl/dyad/example/httpget.c */ = {isa = PBXBuildFile; fileRef = FDFE54DABC2445F88E7074FC /* /Users/tuyou/shanfl/dyad/example/httpget.c */; settings = { COMPILER_FLAGS = ""; }; };
+AA63B4DA510F49128312111C /* /Users/tuyou/shanfl/dyad/src/dyad.c */ = {isa = PBXBuildFile; fileRef = 6D5EEC354A104C0B94530C93 /* /Users/tuyou/shanfl/dyad/src/dyad.c */; settings = { COMPILER_FLAGS = ""; }; };
+6C28578E7D9F41E692938D8A /* /Users/tuyou/shanfl/dyad/src/dyad.h */ = {isa = PBXBuildFile; fileRef = 69054A2174764084A6624B20 /* /Users/tuyou/shanfl/dyad/src/dyad.h */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              FCC8EE42460344D89D34F87F /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              DF606A19B6D94694AB31F77E /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              90C9DA5BDD4F436FB6B6A82F /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              FD2A988E926A4B8680A475B5 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              6A84A038F7274478A60510D3 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              6AE233E91CE54AB4ACFEF73B /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BDE71F81BFB94CC0A97FE2C4 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 0D138CDBDDE1495993E60478;
+                     remoteInfo = echoserv;
+              };
+              6AE1EB2DAE3347899C807CF1 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BDE71F81BFB94CC0A97FE2C4 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 377568299A4D4F48A543E006;
+                     remoteInfo = IRCBOT;
+              };
+              3F71DEC7AA6C4B7688A6ACE5 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BDE71F81BFB94CC0A97FE2C4 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 1383811AE0FF41C2BFFF6E4E;
+                     remoteInfo = httpget;
+              };
+              0E29BCF9BF014C96884FC422 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BDE71F81BFB94CC0A97FE2C4 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 58CDC3C7123045ED8C96058E;
+                     remoteInfo = HTTPSERV;
+              };
+              3B3F75CCBF9542A7A642AEB4 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BDE71F81BFB94CC0A97FE2C4 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 2C215AEDD8534656A5D80292;
+                     remoteInfo = DAYTIME;
+              };
+              69DC11BE712340F39C42C211 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BDE71F81BFB94CC0A97FE2C4 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 7A946C6F31BD46958164D25B;
+                     remoteInfo = ZERO_CHECK;
+              };
+              692B7DB73D494A31A39C6C75 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BDE71F81BFB94CC0A97FE2C4 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 7A946C6F31BD46958164D25B;
+                     remoteInfo = ZERO_CHECK;
+              };
+              098115FDB46A4CE9BD3869C6 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BDE71F81BFB94CC0A97FE2C4 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 7A946C6F31BD46958164D25B;
+                     remoteInfo = ZERO_CHECK;
+              };
+              AEA4C90F1D894946B8E0D2A7 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BDE71F81BFB94CC0A97FE2C4 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 7A946C6F31BD46958164D25B;
+                     remoteInfo = ZERO_CHECK;
+              };
+              35D2C7B6AFE74DF7A6401A4B /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BDE71F81BFB94CC0A97FE2C4 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 7A946C6F31BD46958164D25B;
+                     remoteInfo = ZERO_CHECK;
+              };
+              AB6FC9965D254CB0BCFA1DA1 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BDE71F81BFB94CC0A97FE2C4 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 7A946C6F31BD46958164D25B;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+3B96E4CE66A747B8928D3856 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+A0BA375AD0034C0A8AC9ACDD /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+94E1C98A5AC8462295306B41 /* /Users/tuyou/shanfl/dyad/example/daytime.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "daytime.c"; path = "example/daytime.c"; sourceTree = SOURCE_ROOT; };
+4DA594DB301941FD8A617F7B /* /Users/tuyou/shanfl/dyad/src/dyad.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "dyad.c"; path = "src/dyad.c"; sourceTree = SOURCE_ROOT; };
+23A4DDE27FB44276B93A7748 /* /Users/tuyou/shanfl/dyad/src/dyad.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "dyad.h"; path = "src/dyad.h"; sourceTree = SOURCE_ROOT; };
+CDF1E26F7FC24B38A563E175 /* DAYTIME */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DAYTIME; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+6CF91E594D5C42D69C9F8364 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+BB1EBA6DD460466A908A9E0C /* /Users/tuyou/shanfl/dyad/example/httpserv.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "httpserv.c"; path = "example/httpserv.c"; sourceTree = SOURCE_ROOT; };
+C7168175DF1A498F9846B63D /* /Users/tuyou/shanfl/dyad/src/dyad.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "dyad.c"; path = "src/dyad.c"; sourceTree = SOURCE_ROOT; };
+6A39C73970104871A3C70180 /* /Users/tuyou/shanfl/dyad/src/dyad.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "dyad.h"; path = "src/dyad.h"; sourceTree = SOURCE_ROOT; };
+BE0CD14377C74613B9C83AAE /* HTTPSERV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = HTTPSERV; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+7C304CF6F7F340498CD7EC68 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+8A4E02D6F93E4B989B15FE54 /* /Users/tuyou/shanfl/dyad/example/ircbot.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "ircbot.c"; path = "example/ircbot.c"; sourceTree = SOURCE_ROOT; };
+17496DDA59184490B3537AC4 /* /Users/tuyou/shanfl/dyad/src/dyad.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "dyad.c"; path = "src/dyad.c"; sourceTree = SOURCE_ROOT; };
+658B59AB8DCE4065851AD2FB /* /Users/tuyou/shanfl/dyad/src/dyad.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "dyad.h"; path = "src/dyad.h"; sourceTree = SOURCE_ROOT; };
+820A9E696DF442218C9B6866 /* IRCBOT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = IRCBOT; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+6C7C1C2A54774B95AEF6E73A /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+BE938303616F439EA8D9DDB1 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+90B511DD46F048ACAD4556E6 /* /Users/tuyou/shanfl/dyad/example/echoserv.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "echoserv.c"; path = "example/echoserv.c"; sourceTree = SOURCE_ROOT; };
+5603C80FB3A547FC84E4FA61 /* /Users/tuyou/shanfl/dyad/src/dyad.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "dyad.c"; path = "src/dyad.c"; sourceTree = SOURCE_ROOT; };
+726A643598DB4ED7B62F5425 /* /Users/tuyou/shanfl/dyad/src/dyad.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "dyad.h"; path = "src/dyad.h"; sourceTree = SOURCE_ROOT; };
+8CAB64EBF6814D688B65D34C /* echoserv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = echoserv; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+D95BF2DD1CA44F4AA43FD661 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+FDFE54DABC2445F88E7074FC /* /Users/tuyou/shanfl/dyad/example/httpget.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "httpget.c"; path = "example/httpget.c"; sourceTree = SOURCE_ROOT; };
+6D5EEC354A104C0B94530C93 /* /Users/tuyou/shanfl/dyad/src/dyad.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "dyad.c"; path = "src/dyad.c"; sourceTree = SOURCE_ROOT; };
+69054A2174764084A6624B20 /* /Users/tuyou/shanfl/dyad/src/dyad.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "dyad.h"; path = "src/dyad.h"; sourceTree = SOURCE_ROOT; };
+309A1072287B45C89001AC34 /* httpget */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = httpget; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              5CF8812BDD9A4972B66C153C  = {
+                     isa = PBXGroup;
+                     children = (
+                            84775D0105714127B87935D2 /* Sources */,
+                            3116A2DA52B44B38B1A95E6F /* Resources */,
+                            C020571F8AD9437EA1C52D1B /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              84775D0105714127B87935D2 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            2CF91903A824418B9D8D4DE6 /* HTTPSERV */,
+                            9657FCCAF8EF4A48BD1775DC /* DAYTIME */,
+                            0AD32C64542B429B98C38BD0 /* echoserv */,
+                            EB8A4FFF2A5540DD84913BD4 /* ALL_BUILD */,
+                            A44E7AD3198E4B2491662F06 /* httpget */,
+                            99B22935C9484FB3B988FF3D /* ZERO_CHECK */,
+                            56FF84194C974E9799C50E73 /* IRCBOT */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              3116A2DA52B44B38B1A95E6F /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              2CF91903A824418B9D8D4DE6 /* HTTPSERV */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5149F0E9E0F94AC693C058EC /* Source Files */,
+                            481EA0FFA940429899F66B6E /* Header Files */,
+                            6CF91E594D5C42D69C9F8364 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */,
+                     );
+                     name = HTTPSERV;
+                     sourceTree = "<group>";
+              };
+              5149F0E9E0F94AC693C058EC /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            BB1EBA6DD460466A908A9E0C /* /Users/tuyou/shanfl/dyad/example/httpserv.c */,
+                            C7168175DF1A498F9846B63D /* /Users/tuyou/shanfl/dyad/src/dyad.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              481EA0FFA940429899F66B6E /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6A39C73970104871A3C70180 /* /Users/tuyou/shanfl/dyad/src/dyad.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              9657FCCAF8EF4A48BD1775DC /* DAYTIME */ = {
+                     isa = PBXGroup;
+                     children = (
+                            FF6C57D2BB77420CBD34468D /* Source Files */,
+                            252C1C523835492F8E34B694 /* Header Files */,
+                            A0BA375AD0034C0A8AC9ACDD /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */,
+                     );
+                     name = DAYTIME;
+                     sourceTree = "<group>";
+              };
+              FF6C57D2BB77420CBD34468D /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            94E1C98A5AC8462295306B41 /* /Users/tuyou/shanfl/dyad/example/daytime.c */,
+                            4DA594DB301941FD8A617F7B /* /Users/tuyou/shanfl/dyad/src/dyad.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              252C1C523835492F8E34B694 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            23A4DDE27FB44276B93A7748 /* /Users/tuyou/shanfl/dyad/src/dyad.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              0AD32C64542B429B98C38BD0 /* echoserv */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6D811850AE12443EA0B2F7A1 /* Source Files */,
+                            F8BCE0AE72674B80AABC3650 /* Header Files */,
+                            BE938303616F439EA8D9DDB1 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */,
+                     );
+                     name = echoserv;
+                     sourceTree = "<group>";
+              };
+              6D811850AE12443EA0B2F7A1 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            90B511DD46F048ACAD4556E6 /* /Users/tuyou/shanfl/dyad/example/echoserv.c */,
+                            5603C80FB3A547FC84E4FA61 /* /Users/tuyou/shanfl/dyad/src/dyad.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              F8BCE0AE72674B80AABC3650 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            726A643598DB4ED7B62F5425 /* /Users/tuyou/shanfl/dyad/src/dyad.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              EB8A4FFF2A5540DD84913BD4 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            105DE50C0229496498015E9C /* CMake Rules */,
+                            3B96E4CE66A747B8928D3856 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              105DE50C0229496498015E9C /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              A44E7AD3198E4B2491662F06 /* httpget */ = {
+                     isa = PBXGroup;
+                     children = (
+                            51FF54956F024B33AB052F84 /* Source Files */,
+                            D755D0836E06411383FE6466 /* Header Files */,
+                            D95BF2DD1CA44F4AA43FD661 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */,
+                     );
+                     name = httpget;
+                     sourceTree = "<group>";
+              };
+              51FF54956F024B33AB052F84 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            FDFE54DABC2445F88E7074FC /* /Users/tuyou/shanfl/dyad/example/httpget.c */,
+                            6D5EEC354A104C0B94530C93 /* /Users/tuyou/shanfl/dyad/src/dyad.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              D755D0836E06411383FE6466 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            69054A2174764084A6624B20 /* /Users/tuyou/shanfl/dyad/src/dyad.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              99B22935C9484FB3B988FF3D /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C575D9B36E6A48D9A1AFCD46 /* CMake Rules */,
+                            6C7C1C2A54774B95AEF6E73A /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              C575D9B36E6A48D9A1AFCD46 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              56FF84194C974E9799C50E73 /* IRCBOT */ = {
+                     isa = PBXGroup;
+                     children = (
+                            89978358E27C41CB9ABB5740 /* Source Files */,
+                            29333E33BAA9448495C966FB /* Header Files */,
+                            7C304CF6F7F340498CD7EC68 /* /Users/tuyou/shanfl/dyad/CMakeLists.txt */,
+                     );
+                     name = IRCBOT;
+                     sourceTree = "<group>";
+              };
+              89978358E27C41CB9ABB5740 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8A4E02D6F93E4B989B15FE54 /* /Users/tuyou/shanfl/dyad/example/ircbot.c */,
+                            17496DDA59184490B3537AC4 /* /Users/tuyou/shanfl/dyad/src/dyad.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              29333E33BAA9448495C966FB /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            658B59AB8DCE4065851AD2FB /* /Users/tuyou/shanfl/dyad/src/dyad.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              C020571F8AD9437EA1C52D1B /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            CDF1E26F7FC24B38A563E175 /* DAYTIME */,
+                            BE0CD14377C74613B9C83AAE /* HTTPSERV */,
+                            820A9E696DF442218C9B6866 /* IRCBOT */,
+                            8CAB64EBF6814D688B65D34C /* echoserv */,
+                            309A1072287B45C89001AC34 /* httpget */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              2C215AEDD8534656A5D80292 /* DAYTIME */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = EE9E8373FAFC45299A5EB026 /* Build configuration list for PBXNativeTarget "DAYTIME" */;
+                     buildPhases = (
+                            10B7C0DF19A54184AE75628B /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            A64B3A9CF0E444F394BBE4BD /* PBXTargetDependency */,
+                     );
+                     name = DAYTIME;
+                     productName = DAYTIME;
+                     productReference = CDF1E26F7FC24B38A563E175 /* DAYTIME */;
+                     productType = "com.apple.product-type.tool";
+              };
+              58CDC3C7123045ED8C96058E /* HTTPSERV */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = BCDBF136A39A404CAF232CC3 /* Build configuration list for PBXNativeTarget "HTTPSERV" */;
+                     buildPhases = (
+                            8D12F26746AF439F908FD923 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            23CC7F614AF14926908ED5C1 /* PBXTargetDependency */,
+                     );
+                     name = HTTPSERV;
+                     productName = HTTPSERV;
+                     productReference = BE0CD14377C74613B9C83AAE /* HTTPSERV */;
+                     productType = "com.apple.product-type.tool";
+              };
+              377568299A4D4F48A543E006 /* IRCBOT */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = B8E72FD9DA2A478C87D12785 /* Build configuration list for PBXNativeTarget "IRCBOT" */;
+                     buildPhases = (
+                            40B3AE867A4B46FA80E4438F /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            7CBD53407A82459E9AFCC18F /* PBXTargetDependency */,
+                     );
+                     name = IRCBOT;
+                     productName = IRCBOT;
+                     productReference = 820A9E696DF442218C9B6866 /* IRCBOT */;
+                     productType = "com.apple.product-type.tool";
+              };
+              0D138CDBDDE1495993E60478 /* echoserv */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = E6FA6AB3373C4229A21F2B43 /* Build configuration list for PBXNativeTarget "echoserv" */;
+                     buildPhases = (
+                            0CE84C8BE58F49F693D2BF80 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            A727BFE237CC40769E4DFF77 /* PBXTargetDependency */,
+                     );
+                     name = echoserv;
+                     productName = echoserv;
+                     productReference = 8CAB64EBF6814D688B65D34C /* echoserv */;
+                     productType = "com.apple.product-type.tool";
+              };
+              1383811AE0FF41C2BFFF6E4E /* httpget */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = E2DA0925ADDD4EDCA62FCE50 /* Build configuration list for PBXNativeTarget "httpget" */;
+                     buildPhases = (
+                            184BDBD19C8A409F9BA8D046 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            6D8C8B264FFE4735B65B66CE /* PBXTargetDependency */,
+                     );
+                     name = httpget;
+                     productName = httpget;
+                     productReference = 309A1072287B45C89001AC34 /* httpget */;
+                     productType = "com.apple.product-type.tool";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              BDE71F81BFB94CC0A97FE2C4 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = EC41CCC3679744FCB007A2F9 /* Build configuration list for PBXProject  "dyad" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            DF606A19B6D94694AB31F77E /* Debug */,
+                            90C9DA5BDD4F436FB6B6A82F /* Release */,
+                            FD2A988E926A4B8680A475B5 /* MinSizeRel */,
+                            6A84A038F7274478A60510D3 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 5CF8812BDD9A4972B66C153C;
+                     projectDirPath = "..";
+                     projectRoot = "";
+                     targets = (
+                            3B9B76B7DEA24B88B930F565 /* ALL_BUILD */,
+                            2C215AEDD8534656A5D80292 /* DAYTIME */,
+                            58CDC3C7123045ED8C96058E /* HTTPSERV */,
+                            377568299A4D4F48A543E006 /* IRCBOT */,
+                            7A946C6F31BD46958164D25B /* ZERO_CHECK */,
+                            0D138CDBDDE1495993E60478 /* echoserv */,
+                            1383811AE0FF41C2BFFF6E4E /* httpget */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              93A90B637001460481058AF4 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              71BABED519FD40AD81C46804 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/tuyou/shanfl/dyad/build -f /Users/tuyou/shanfl/dyad/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              FBC2B40975DE4CFCBEC8ADBC /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              18024DDE8FEB400EAD68F130 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/tuyou/shanfl/dyad/build -f /Users/tuyou/shanfl/dyad/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              10B7C0DF19A54184AE75628B /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            8176470620FA46079AA58EEA /* /Users/tuyou/shanfl/dyad/example/daytime.c */,
+                            411EBD5D6BC54144B48CB47D /* /Users/tuyou/shanfl/dyad/src/dyad.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              8D12F26746AF439F908FD923 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            64BBFF248F4E4D23B4334C4E /* /Users/tuyou/shanfl/dyad/example/httpserv.c */,
+                            0F85404CA3CB42C6B13EF077 /* /Users/tuyou/shanfl/dyad/src/dyad.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              40B3AE867A4B46FA80E4438F /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            D71899B401764E4CB071EB91 /* /Users/tuyou/shanfl/dyad/example/ircbot.c */,
+                            9C02E6D68D114196AB980104 /* /Users/tuyou/shanfl/dyad/src/dyad.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              0CE84C8BE58F49F693D2BF80 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            798C05F3886443E6B357578E /* /Users/tuyou/shanfl/dyad/example/echoserv.c */,
+                            385EE3205EA24F8292F4EC52 /* /Users/tuyou/shanfl/dyad/src/dyad.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              184BDBD19C8A409F9BA8D046 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            24F6E2EFE22A4D77BD811EC6 /* /Users/tuyou/shanfl/dyad/example/httpget.c */,
+                            AA63B4DA510F49128312111C /* /Users/tuyou/shanfl/dyad/src/dyad.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              681BAAB9F80140558F7A176D /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 0D138CDBDDE1495993E60478 /* echoserv */;
+                     targetProxy = 6AE233E91CE54AB4ACFEF73B /* PBXContainerItemProxy */;
+              };
+              8FAAC6ECE7594C619692B8A7 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 377568299A4D4F48A543E006 /* IRCBOT */;
+                     targetProxy = 6AE1EB2DAE3347899C807CF1 /* PBXContainerItemProxy */;
+              };
+              92CAF0658A23464DBC589347 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 1383811AE0FF41C2BFFF6E4E /* httpget */;
+                     targetProxy = 3F71DEC7AA6C4B7688A6ACE5 /* PBXContainerItemProxy */;
+              };
+              AE6E634428FF4E33AA0DCE3C /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 58CDC3C7123045ED8C96058E /* HTTPSERV */;
+                     targetProxy = 0E29BCF9BF014C96884FC422 /* PBXContainerItemProxy */;
+              };
+              182DE31BE3F1401D836CA5E1 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 2C215AEDD8534656A5D80292 /* DAYTIME */;
+                     targetProxy = 3B3F75CCBF9542A7A642AEB4 /* PBXContainerItemProxy */;
+              };
+              16652405F1C34A1F915455A6 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 7A946C6F31BD46958164D25B /* ZERO_CHECK */;
+                     targetProxy = 69DC11BE712340F39C42C211 /* PBXContainerItemProxy */;
+              };
+              A64B3A9CF0E444F394BBE4BD /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 7A946C6F31BD46958164D25B /* ZERO_CHECK */;
+                     targetProxy = 692B7DB73D494A31A39C6C75 /* PBXContainerItemProxy */;
+              };
+              23CC7F614AF14926908ED5C1 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 7A946C6F31BD46958164D25B /* ZERO_CHECK */;
+                     targetProxy = 098115FDB46A4CE9BD3869C6 /* PBXContainerItemProxy */;
+              };
+              7CBD53407A82459E9AFCC18F /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 7A946C6F31BD46958164D25B /* ZERO_CHECK */;
+                     targetProxy = AEA4C90F1D894946B8E0D2A7 /* PBXContainerItemProxy */;
+              };
+              A727BFE237CC40769E4DFF77 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 7A946C6F31BD46958164D25B /* ZERO_CHECK */;
+                     targetProxy = 35D2C7B6AFE74DF7A6401A4B /* PBXContainerItemProxy */;
+              };
+              6D8C8B264FFE4735B65B66CE /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 7A946C6F31BD46958164D25B /* ZERO_CHECK */;
+                     targetProxy = AB6FC9965D254CB0BCFA1DA1 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              FDD61ACD6FA24783AE3EC18D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build/build;
+                     };
+                     name = Debug;
+              };
+              64083366FDB44A409F85C7EA /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build/build;
+                     };
+                     name = Release;
+              };
+              7D552BFA0C0842DF822592C2 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build/build;
+                     };
+                     name = MinSizeRel;
+              };
+              66390D67BD9A422886CBD413 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              F601D77C0B9C4641B6A0E642 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              20B8262448EF4D13A942A3A7 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              3E858494A22042749BE2C1CA /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              D6F6E89D55A1405987D3968E /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              529E4C5CCD19477C99F322C8 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = DAYTIME;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              A4A1C70A0AD242328E95DDF1 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = DAYTIME;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              4DBF75C27559436B90C34187 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = DAYTIME;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              412305D59BA446B2928E9848 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = DAYTIME;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              03DF92A6DE8D4F4DB3E84D98 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = HTTPSERV;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              45F2BC4755384A508F947338 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = HTTPSERV;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              8CB8A316C7984A20A81E849D /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = HTTPSERV;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              88B09DC93BBB41DC82195F88 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = HTTPSERV;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              82099DEF1A3C4577858AF2B8 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = IRCBOT;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              BE4E1B6246F246839D893358 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = IRCBOT;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              5DA5D57F78B141E980C55790 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = IRCBOT;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              9BBDFDF5E4624EDAA3A69985 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = IRCBOT;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              23A9F84710284ECCB89763F9 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              956BF70C4CE644E289C2A25C /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              78AD05A9CC7E41BCBAD31009 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              4BBB49DBA3434BD4B60D03AB /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              E23354912ED0432480388335 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = echoserv;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              2E55191B7ECC44178F43E7CB /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = echoserv;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              0E9B1F1766CD4E69A03508D0 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = echoserv;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              5A7E3BADCFBA48CD859631C1 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = echoserv;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              E93EAA5D7C214AEE9F7E33CF /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = httpget;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              682FF5F1586E4C25B380E7C1 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = httpget;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              42E6B86056DA4D31B5D18D31 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = httpget;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              B2798E26F2774C5B8E1F7D3B /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/tuyou/shanfl/dyad/src, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = httpget;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/tuyou/shanfl/dyad/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              EC41CCC3679744FCB007A2F9 /* Build configuration list for PBXProject  "dyad" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            FDD61ACD6FA24783AE3EC18D /* Debug */,
+                            64083366FDB44A409F85C7EA /* Release */,
+                            7D552BFA0C0842DF822592C2 /* MinSizeRel */,
+                            66390D67BD9A422886CBD413 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              E9259E274BDF44E9A6B4DC45 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            F601D77C0B9C4641B6A0E642 /* Debug */,
+                            20B8262448EF4D13A942A3A7 /* Release */,
+                            3E858494A22042749BE2C1CA /* MinSizeRel */,
+                            D6F6E89D55A1405987D3968E /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              EE9E8373FAFC45299A5EB026 /* Build configuration list for PBXNativeTarget "DAYTIME" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            529E4C5CCD19477C99F322C8 /* Debug */,
+                            A4A1C70A0AD242328E95DDF1 /* Release */,
+                            4DBF75C27559436B90C34187 /* MinSizeRel */,
+                            412305D59BA446B2928E9848 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              BCDBF136A39A404CAF232CC3 /* Build configuration list for PBXNativeTarget "HTTPSERV" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            03DF92A6DE8D4F4DB3E84D98 /* Debug */,
+                            45F2BC4755384A508F947338 /* Release */,
+                            8CB8A316C7984A20A81E849D /* MinSizeRel */,
+                            88B09DC93BBB41DC82195F88 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              B8E72FD9DA2A478C87D12785 /* Build configuration list for PBXNativeTarget "IRCBOT" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            82099DEF1A3C4577858AF2B8 /* Debug */,
+                            BE4E1B6246F246839D893358 /* Release */,
+                            5DA5D57F78B141E980C55790 /* MinSizeRel */,
+                            9BBDFDF5E4624EDAA3A69985 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              DFDCF14A2E974F68A9C99BEE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            23A9F84710284ECCB89763F9 /* Debug */,
+                            956BF70C4CE644E289C2A25C /* Release */,
+                            78AD05A9CC7E41BCBAD31009 /* MinSizeRel */,
+                            4BBB49DBA3434BD4B60D03AB /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              E6FA6AB3373C4229A21F2B43 /* Build configuration list for PBXNativeTarget "echoserv" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E23354912ED0432480388335 /* Debug */,
+                            2E55191B7ECC44178F43E7CB /* Release */,
+                            0E9B1F1766CD4E69A03508D0 /* MinSizeRel */,
+                            5A7E3BADCFBA48CD859631C1 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              E2DA0925ADDD4EDCA62FCE50 /* Build configuration list for PBXNativeTarget "httpget" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E93EAA5D7C214AEE9F7E33CF /* Debug */,
+                            682FF5F1586E4C25B380E7C1 /* Release */,
+                            42E6B86056DA4D31B5D18D31 /* MinSizeRel */,
+                            B2798E26F2774C5B8E1F7D3B /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = BDE71F81BFB94CC0A97FE2C4;
+}
