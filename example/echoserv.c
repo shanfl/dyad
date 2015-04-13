@@ -18,13 +18,19 @@ static void onError(dyad_Event *e) {
   printf("server error: %s\n", e->msg);
 }
 
+
+static void onTick(dyad_Event *e) {
+  printf("server error: %s\n", e->msg);
+}
+
 int main(void) {
   dyad_Stream *s;
   dyad_init();
 
   s = dyad_newStream();
-  dyad_addListener(s, DYAD_EVENT_ERROR,  onError,  NULL);
-  dyad_addListener(s, DYAD_EVENT_ACCEPT, onAccept, NULL);
+  dyad_addListener(s, DYAD_EVENT_ERROR,  	onError,  	NULL);
+  dyad_addListener(s, DYAD_EVENT_ACCEPT, 	onAccept, 	NULL);
+  dyad_addListener(s, DYAD_EVENT_TICK,		onTick,		NULL);
   dyad_listen(s, 8000);
 
   while (dyad_getStreamCount() > 0) {
